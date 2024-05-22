@@ -1,0 +1,4 @@
+Contact: https://klaxzy.net/ns.txt
+Expires: 2039-01-03T23:00:00.000Z
+Encryption: https://klaxzy.net/sysadmin_pgp.txt
+Preferred-Languages: en
