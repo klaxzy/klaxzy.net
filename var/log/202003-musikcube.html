@@ -14,7 +14,7 @@
             <h2>
                 <a class="header-lnk" href="https://klaxzy.net/">klaxzy[dot]net</a>
             </h2>
-        </div><div id="div-logo">zabarikadirati!</div>
+        </div><div id="div-logo">mpeg layer III</div>
         <hr>
         <nav>
             <div id="nav-menu">
@@ -30,12 +30,25 @@
             </div>
         </nav>
         <hr>
-        <h1>nikola[at]klaxzy.net:/var/log/0-coast eurorack</h1>
+        <h1>nikola[at]klaxzy.net:/var/log/musikcube</h1>
         <p>
-        <h1>0-coast eurorack conversion</h1>
+        <h1>musikcube terminal player</h1>
 
         <p>fully functional cross-platform, terminal-based audio engine, library, player and server written in c++.</p>
+
+        <p>I always had the secret idea of using linux terminal and only terminal for everything, I believe this comes from the moment I discovered terminal based browser, it was <b><a style="font-weight: bold;" href="https://w3m.sourceforge.net/">w3m</a></b> that I used ocasionally but lack of other terminal based tools kinda left <b>w3m</b> unused and unexplored. Up until now I was looking for a good terminal based music player, got to know already mp3blaster and cmus but that was not it.</p>
+
+        <p>the project <b><a style="font-weight: bold;" href="https://github.com/clangen/musikcube">github page</a></b> gives the details and information on features. </p>
         
+        <img src="../img/musikcube.png" alt="musikcube">
+
+        <p>installation is straith fwd, available for mac, win and linux.</p>
+
+        <p>releases and binaries are available on <b><a style="font-weight: bold;" href="https://github.com/clangen/musikcube/releases">github releases</a></b> page. I faced an installation failing due to missing dependencies. On Fedora install below dependencies to fully support the installation, both via rpm or from source.</p>
+
+        <pre><code># sudo dnf install gcc-c++ make cmake libogg-devel libvorbis-devel ffmpeg-devel ncurses-devel zlib-devel alsa-lib-devel pulseaudio-libs-devel libcurl-devel libmicrohttpd-devel lame-devel libev-devel taglib-devel openssl-devel libopenmpt-devel</code></pre>
+
+        <p>the killer functionality/idea for me is the possibility to play music on a remote computer just by connecting to it via remote ssh connection and starting <b>musikcube</b> in terminal and browse the remote computer music library and once you play it will play on a soundcard and speakers of a remote computer.</p>
 
     </body>
 </html>   
