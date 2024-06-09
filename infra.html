@@ -14,7 +14,7 @@
             <h2>
                 <a class="header-lnk" href="https://klaxzy.net/">klaxzy[dot]net</a>
             </h2>
-        </div><div id="div-logo">zabarikadirati!</div>
+        </div><div id="div-logo">tcp/ip</div>
         <hr>
         <nav>
             <div id="nav-menu">
@@ -34,5 +34,38 @@
         <p>
         <h1>infrastructure I use:</h1>
 
+        <p>Cloud and self-hosted services, technologies and costs.</p>
+
+    </section>
+        <section class="buttons">
+            <h2 id="buttons">cloud infra:</h2>
+
+                <p><b>web hosting</b> - IONOS.de VPS, 5EUR/month [incl. Plesk license]</p>
+                <p><b>ssh jump-host</b> - IONOS.de VPS, 2EUR/month</p>
+                <p><b>dns hosting</b> - Cloudflare, 0EUR/month</p>
+                <p><b>domain names</b> - Cloudflare, mCloud.rs, expected cost 30-40EUR/year</p>
+                <p><b>threat intelligence</b> - CrowdSec, 0EUR/month</p>
+        <p>
+    </section>
+        <section class="buttons">
+            <h2 id="buttons">on-prem [homelab hardware]:</h2>
+        
+                <p><b>dell optiplex 3070</b> - main hypervisor that hosts all my homelab vm's and containers, it is the part of the ProxMox cluster together with the lenovo m900 and raspberry pi [pi is used as a <b>q</b> device]. It has <b>i7-8700T CPU</b>, 32GB RAM and 1TB SSD and I use it as a production server with configured replication to a second cluster member.</p>
+                <p><b>lenovo thinkcentre m900</b> - staging hypervisor that hosts staging part of my homelab vm's and containers, part of ProxMox cluster, has <b>i5-6500T</b>, 32GB RAM I use it mostly for testing. It replicates VMs from a production cluster member.</p>
+                <p><b>protectli vp2420</b> - main firewall [opnsense] that I use right after the ISP DSL. The firewall is configured to handle VLANs, IPS/IDS, DHCP, DNS upstream, NTP, VPN and firewalling. I am running <b>Zenarmor NextGen</b> firewall as an additional feature. Protectli BIOS is flashed with the <b>Seabios</b> open source firmware.</p>
+                <p><b>cisco sg200-26</b> - main network switch</p>
+                <p><b>netgear wax220</b> - WiFi access points, with OpenWRT firmware.</p>
+                <p><b>qnap ts-453-a</b> - NAS that I use to backup everything.</p>
+        
+            </section>
+    </section>
+        <section class="buttons">
+            <h2 id="buttons">workstations:</h2>
+    
+                <p><b>intel nuc kit</b> - main workstation with Fedora Linux</p>
+                <p><b>lenovo thinkpad x230</b> - my main laptop with Fedora Linux, mostly used when traveling or working remotely.</p>
+                <p><b>macbook pro 15" 2018</b> - main computer for audio & video editing and music production. I do all Ableton and modular stuff here.</p>
+    
+        </section>
     </body>
 </html>
