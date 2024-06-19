@@ -32,6 +32,17 @@
         <hr>
         <h1>nikola[at]klaxzy.net:/proc/infra</h1>
         <p>
+
+        <p style="text-align:center;">
+        <img src="var/img/infra1.webp" alt="infra-ani" class="center"> 
+        </p>
+
+        <p>I work with computers, at least that's what I do for living. Cloud, Security, Networking to be more specific, Linux is my OS of choice. I got my first PC when I was 17, it was Pentium 4 with AMD Athlon CPU and Windows XP. I didn't care about anything but computer games and collecting music at that time, it was also era without any internet connection but shortly after I got the 56k modem for dial-up and spent so much money to stay online and play <b>Quake III</b> with friends. My first serious usage was just before the university when I started making websites and wanted to be a web designer but on the university I got to know more about internet and was curious how internet is working so the web designer dream was over.</p>
+
+        <p>During my second year of university I started volonteering at the local internet service provider company which later became my first full-time job, I was working as a System Administrator for long 9 years. This was the period where I learned infrastructure, servers and networking and the moment I started working on Linux. I work with Linux since and somehow I sticked with <b>Fedora Linux</b> which I use up to this date.</p>
+
+        <p>Today I have a home lab in my apartment with lots of equipment but also cloud resources and services that I use in combination. I try to go open source as much as posible and support <b><a class="nav-links" href="https://permacomputing.net/"> permacomputing</a></b> approach to computing and sustainability and most of my equipment is a bit old and I got it ether used or broken and try to fix it.</p>
+
         <h1>infrastructure I use:</h1>
 
         <p>Cloud and self-hosted services, technologies and costs.</p>
@@ -50,12 +61,14 @@
         <section class="buttons">
             <h2 id="buttons">on-prem [homelab hardware]:</h2>
         
-                <p><b>dell optiplex 3070</b> - main hypervisor that hosts all my homelab vm's and containers, it is the part of the ProxMox cluster together with the lenovo m900 and raspberry pi [pi is used as a <b>q</b> device]. It has <b>i7-8700T CPU</b>, 32GB RAM and 1TB SSD and I use it as a production server with configured replication to a second cluster member.</p>
-                <p><b>lenovo thinkcentre m900</b> - staging hypervisor that hosts staging part of my homelab vm's and containers, part of ProxMox cluster, has <b>i5-6500T</b>, 32GB RAM I use it mostly for testing. It replicates VMs from a production cluster member.</p>
-                <p><b>protectli vp2420</b> - main firewall [opnsense] that I use right after the ISP DSL. The firewall is configured to handle VLANs, IPS/IDS, DHCP, DNS upstream, NTP, VPN and firewalling. I am running <b>Zenarmor NextGen</b> firewall as an additional feature. Protectli BIOS is flashed with the <b>Seabios</b> open source firmware.</p>
-                <p><b>cisco sg200-26</b> - main network switch</p>
-                <p><b>netgear wax220</b> - WiFi access points, with OpenWRT firmware.</p>
-                <p><b>qnap ts-453-a</b> - NAS that I use to backup everything.</p>
+                <p><b>dell optiplex 3070</b> - main hypervisor that hosts all my homelab vm's and containers, it is the part of the ProxMox cluster together with the lenovo m900 and raspberry pi [pi is used as a <b>q</b> device]. I use it as a production server with configured replication to a second cluster member. This was the cheap purchase from ebay, then I put more RAM and SSD and made it a nice little workstation VM host.</p>
+                <p><b>lenovo thinkcentre m900</b> - staging hypervisor that hosts staging part of my homelab vm's and containers, part of ProxMox cluster. This was my desktop PC previously that I used for years, it has <b>i5-6500T</b>, 32GB RAM I use it mostly for testing. It replicates VMs from a production cluster member.</p>
+                <p><b>protectli vp2420</b> - main firewall [opnsense] that I use right after the ISP DSL. This was the only device that I got brand new since I was struggling to find a good device with multiple LAN ports and hardware spects that I need to install firewall software. The firewall is configured to handle VLANs, IPS/IDS, DHCP, DNS upstream, NTP, VPN and firewalling. I am running <b>Zenarmor NextGen</b> firewall as an additional feature. Protectli BIOS is flashed with the <b>Seabios</b> open source firmware.</p>
+                <p><b>cisco sg200-26</b> - main network switch, already old, no more support from the vendor however works really good with the exception that gui is very slow and unresponsive. I got this switch for free in 2015, it was to be thrown away after working in one company and it ended up that one of the electrolitic capacitors in the power section was blown up, after replacing the capactior switch worked again. I am doing a detailed reasearch to upgrade my main switch, switch is already more than 10 years old and lacks of some important features that I need, PoE+ and 2.5G/10G ports.</p>
+                <p><b>netgear wax220</b> - WiFi access points, with OpenWRT firmware. Stock firmware was full of bugs and was causing frequent disconnection from the network. <b>OpenWRT</b> just works perfect!</p>
+                <p><b>qnap ts-453-a</b> - NAS that I use to backup everything. Already showing the age and can gets slow from time to time however very stable and reliable, vendor support EoL uncertan, I have this NAS since 2016.</p>
+                <p><b>hp proliant microserver gen8</b> - This was my first ever server, got it from the friend for like 50EUR. I used it as a hypervisor since 2014 running ESXi for my homelab and got retired few years back. Now I use it as NAS where I backup data from my promary NAS. I do backup manually, don't really like the power consumption and noise of this server so it's mostly powered off.</p>
+
         
             </section>
     </section>
@@ -63,9 +76,20 @@
             <h2 id="buttons">workstations:</h2>
     
                 <p><b>intel nuc kit</b> - main workstation with Fedora Linux</p>
-                <p><b>lenovo thinkpad x230</b> - my main laptop with Fedora Linux, mostly used when traveling or working remotely.</p>
-                <p><b>macbook pro 15" 2018</b> - main computer for audio & video editing and music production. I do all Ableton and modular stuff here.</p>
+                <p><b>lenovo thinkpad x230</b> - my main laptop with Fedora Linux, mostly used when traveling or working remotely. I bought this in 2014, it was used but in very good condition. I did many upgrades since including RAM, SSD, keyboard, battery.</p>
+                <p><b>macbook pro 15" 2018</b> - main computer for audio & video editing and MacOS stuff. I do all Ableton and modular stuff here.</p>
     
         </section>
+
+    </section>
+        <section class="buttons">
+            <h2 id="buttons">workshop & tools:</h2>
+
+                <p>I built a small workshop in the corner of my home office, here are all my tools for building electronics, doing DIY projects and fixing broken hardware. </p>
+                <p><b>intel nuc kit</b> - main workstation with Fedora Linux</p>
+                <p><b>lenovo thinkpad x230</b> - my main laptop with Fedora Linux, mostly used when traveling or working remotely.</p>
+                <p><b>macbook pro 15" 2018</b> - main computer for audio & video editing and MacOS stuff. I do all Ableton and modular stuff here.</p>
+
+    </section>
     </body>
 </html>
