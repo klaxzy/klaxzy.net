@@ -10,9 +10,9 @@ Nikola (He/Him)
 .SH DESCRIPTION
 Security and Infrastructure engineer with a demonstrated history of working in the large ISP and IT environments.
 .br
-Skilled in Network, Web and Email security systems and Cloud technologies.
+Skilled in Network, Web and Email security systems and Cloud technologies, configuration as code with Terraform and Github.
 .br
-Core skills are around security and infrastructure design of core services on-prem and cloud..
+Core skills are around security and infrastructure design of core services on-prem and cloud.
 .SH SKILLS
 \fBLanguages\fP
 .RS 4
@@ -35,7 +35,17 @@ Privilege Access Management, Configuration as Code.
 .IP \(bu 2
 AWS, Github Actions, Terraform, CyberArk. 
 .PP
-\fBHollandAmerica Group\fP
+\fBDelivery Hero SE\fP
+.br
+\fBSenior Infrastructure Engineer\fP
+.br
+June 2018\(en2022
+.IP \(bu 2
+Network engineering including planning and designing local and cloud network infrastructure. Network security with next-gen firewalls, network access control and ips/ids.
+.IP \(bu 2
+AWS, Palo Alto Networks, Network access control, WiFi security, VPN.
+.PP
+\fBHolland America Group\fP
 .br
 \fBTraveling IT Officer\fP
 .br
@@ -48,9 +58,9 @@ IT Policy and documentation management, Special IT projects
 Responsible for driving IT standards, training and producing policies,
 procedures and best practices for Holland America Group fleets
 .IP \(bu 2
-Security analisis, Penetration testing and Patch management accross the fleet
+Security analisis, Penetration testing and Patch management accross the fleet.
 .PP
-\fBHollandAmerica Group\fP
+\fBHolland America Group\fP
 .br
 \fBIT Officer (Shipboard)\fP
 .br
@@ -84,19 +94,47 @@ Implementing Company Backup Infrastructure & Strategy
 .br
 2014\(en2014
 .IP \(bu 2
-Designing, planning and administering Microsoft AD Infrastructure.
+Responsible for all aspects of Microsoft Infrastructure including Active
+Directory, Microsoft Exchange, Microsoft ForeFront, Microsoft Lync, Microsoft
+Sharepoint, System Center Data Protection Manager, Microsoft SQL including
+planning, development, maintenance and support operations
 .IP \(bu 2
-Designing, planning and administering Company Security Polices
+Responsible for all aspects of VMware Infrastructure products (ESXi, vSphere,
+VMware Server, VMware Workstation) including planning, maintenance and
+administration
 .IP \(bu 2
-Designing, planning and administering Company Mail and Web Services
-Including MDaemon, IIS and Microsoft SQL.
+Responsible for Hosting Services, designing, maintaining and administering
+core hosting services such as Apache, nginx, IIS, DNS, MSSQL, MySQL, FTP
+Services. Implementation of ISPsystem Hosting Products and Parallels Hosting
+Products.
 .IP \(bu 2
-Implementing Company Backup Infrastructure & Strategy
+Designing, planning and administering core Mail Services such as Postfix,
+MDaemon, Dovecot. Designing and implementing Mail Security Services (Mail
+Exchanger and Mail Relays) using Trend Micro IMSS.
+.IP \(bu 2
+Responsible for Security Services. Implementation and administration of
+Enterprise Trend Micro Products such as OfficeScan, IMSS, IWSVA, IMSVA,
+Control Manager, SMEX, ServerProtect, Data Leakage Protection (DLP).
 .SH EDUCATION
+\fBArrowDNS\fP
+2011\(en2011
+.PP
+TCSM - Certified Security Master Courses. 
+.PP
 \fBChamber of Commerce and industry of Serbia\fP
 2010\(en2010
 .PP
-CompTIA Security+ Certification Courses. 
+CompTIA Security+ Certification Courses
+.PP
+\fBComputer school at Vinca Institute of Nuclear Sciences\fP
+2090\(en2009
+.PP
+Microsoft Certified Systems Engineer Certification, MCSE 
+.PP
+\fBUniversity of Belgrade\fP
+2005\(en2010
+.PP
+Bachelor of Information Technology 
 .PP
 .SH SEE ALSO
 \fBPersonal website\fP
