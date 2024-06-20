@@ -1,6 +1,6 @@
-.TH resume 7 "30 Nov 2023" "2.1" "Nikola' Resume"
+.TH resume 7 "30 Nov 2023" "2.1" "Nikola's Resume"
 .SH NAME
-resume \- Nikola' Resume
+resume \- Nikola's Resume
 .SH AUTHOR
 Nikola (He/Him)
 .MT nikola@klaxzy.net
@@ -8,10 +8,9 @@ Nikola (He/Him)
 .SH SYNOPSIS
 .B curl https://klaxzy.net/resume.man | man -l -
 .SH DESCRIPTION
-Security and Infrastructure engineer
+Security and Infrastructure engineer with a demonstrated history of working in the large ISP and IT environments.
 .br
-Trying to find the easiest and most efficient way to solve problems
-keeping the users in mind.
+Skilled in Network, Web and Email security systems and Cloud technologies.
 .br
 Core skills are around security and infrastructure design of core services on-prem and cloud..
 .SH SKILLS
@@ -34,7 +33,7 @@ November 2022\(enToday
 .IP \(bu 2
 Privilege Access Management, Configuration as Code.
 .IP \(bu 2
-AWS, Github Actions, CyberArk. 
+AWS, Github Actions, Terraform, CyberArk. 
 .PP
 \fBHollandAmerica Group\fP
 .br

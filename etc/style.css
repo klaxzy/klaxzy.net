@@ -3,8 +3,8 @@ Global code style
 */
 
 code {
-	line-height: 1.25;
-	padding: 1.5em;
+	line-height: 1;
+	padding: 1em;
 	overflow-x: auto;
 	overflow-y: hidden;
 	display: inline-block;
