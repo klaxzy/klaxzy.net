@@ -1,0 +1,113 @@
+.TH resume 7 "30 Nov 2023" "2.1" "Nikola' Resume"
+.SH NAME
+resume \- Nikola' Resume
+.SH AUTHOR
+Nikola (He/Him)
+.MT nikola@klaxzy.net
+.ME
+.SH SYNOPSIS
+.B curl https://klaxzy.net/resume.man | man -l -
+.SH DESCRIPTION
+Security and Infrastructure engineer
+.br
+Trying to find the easiest and most efficient way to solve problems
+keeping the users in mind.
+.br
+Core skills are around security and infrastructure design of core services on-prem and cloud..
+.SH SKILLS
+\fBLanguages\fP
+.RS 4
+Solid knowledge of Terraform & Bash scripting.
+.RE
+.sp
+\fBTechnologies\fP
+.RS 4
+Linux, Docker, AWS, Terraform, Git, CI/CD, Networking, Firewalling, Virutalisation.
+.RE
+.sp
+.SH EXPERIENCE
+\fBDelivery Hero SE\fP
+.br
+\fBSenior Security Engineer (PAM)\fP
+.br
+November 2022\(enToday
+.IP \(bu 2
+Privilege Access Management, Configuration as Code.
+.IP \(bu 2
+AWS, Github Actions, CyberArk. 
+.PP
+\fBHollandAmerica Group\fP
+.br
+\fBTraveling IT Officer\fP
+.br
+2016\(en2018
+.IP \(bu 2
+Shipboard Audit check, Inspection and training.
+.IP \(bu 2
+IT Policy and documentation management, Special IT projects
+.IP \(bu 2
+Responsible for driving IT standards, training and producing policies,
+procedures and best practices for Holland America Group fleets
+.IP \(bu 2
+Security analisis, Penetration testing and Patch management accross the fleet
+.PP
+\fBHollandAmerica Group\fP
+.br
+\fBIT Officer (Shipboard)\fP
+.br
+2014\(en2016
+.IP \(bu 2
+Administering of shipboard IT infrastructure including Microsoft Windows
+servers, Cisco and Palo Alto network, hardware deploy and purchasing
+.IP \(bu 2
+Maintaining and monitoring shipboard IT operations
+.IP \(bu 2
+Implementation of shipboard projects
+.PP
+\fBMikro Kontrol d.o.o.\fP
+.br
+\fBSystem Engineer\fP
+.br
+2014\(en2014
+.IP \(bu 2
+Designing, planning and administering Microsoft AD Infrastructure.
+.IP \(bu 2
+Designing, planning and administering Company Security Polices
+.IP \(bu 2
+Designing, planning and administering Company Mail and Web Services
+Including MDaemon, IIS and Microsoft SQL.
+.IP \(bu 2
+Implementing Company Backup Infrastructure & Strategy
+.PP
+\fBBeoNET\fP
+.br
+\fBSystem Engineer\fP
+.br
+2014\(en2014
+.IP \(bu 2
+Designing, planning and administering Microsoft AD Infrastructure.
+.IP \(bu 2
+Designing, planning and administering Company Security Polices
+.IP \(bu 2
+Designing, planning and administering Company Mail and Web Services
+Including MDaemon, IIS and Microsoft SQL.
+.IP \(bu 2
+Implementing Company Backup Infrastructure & Strategy
+.SH EDUCATION
+\fBChamber of Commerce and industry of Serbia\fP
+2010\(en2010
+.PP
+CompTIA Security+ Certification Courses. 
+.PP
+.SH SEE ALSO
+\fBPersonal website\fP
+.RS 4
+.UR https://www.klaxzy.net/
+.UE
+.RE
+.sp
+\fBGit (Github)
+.RS 4
+.UR https://github.com/klaxzy
+.UE
+.RE
