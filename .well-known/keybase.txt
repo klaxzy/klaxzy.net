@@ -1,0 +1,57 @@
+==================================================================
+https://keybase.io/klaxzy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://klaxzy.net
+  * I am klaxzy (https://keybase.io/klaxzy) on keybase.
+  * I have a public key ASCa3-UPfRlpGYTVcToPT15vGikWAUMnV7BgX79IW7YSfwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209adfe50f7d19691984d5713a0f4f5e6f1a291601432757b0605fbf485bb6127f0a",
+      "host": "keybase.io",
+      "kid": "01209adfe50f7d19691984d5713a0f4f5e6f1a291601432757b0605fbf485bb6127f0a",
+      "uid": "07ec91e29e83dc2c87a33c1cdb43b919",
+      "username": "klaxzy"
+    },
+    "merkle_root": {
+      "ctime": 1718711484,
+      "hash": "8d37d576911f2ca839dd6f73c28945709b8b4559f84d67d66bd01eacadda3336b798ab7596a1f1c3cafd078f1a0b64216bd76f8eb360851cea169e985266c00c",
+      "hash_meta": "b9f78176b964d1ac757a1eae9a9649096dc3d4e7cb47c121f17f453117b28678",
+      "seqno": 25843663
+    },
+    "service": {
+      "entropy": "mgMB9UDlcGwxudLUkzz+VHs5",
+      "hostname": "klaxzy.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.3.1"
+  },
+  "ctime": 1718711613,
+  "expire_in": 504576000,
+  "prev": "35ac855e2bf025b6343e2e86746389a1fddd481862bb75ec1555f3e490f43a4c",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmt/lD30ZaRmE1XE6D09ebxopFgFDJ1ewYF+/SFu2En8Kp3BheWxvYWTESpcCCMQgNayFXivwJbY0Pi6GdGOJof3dSBhiu3XsFVXz5JD0OkzEIMsNm/PkgMU59eA+57pi6h+un4xMy3tv25N7nFzPuM6gAgHCo3NpZ8RAHt8fewT0r4tzaJSV5neMQ06s8OABK9aISMDi9dGNfFK6rdw8jpm68CoUyDy1eGUvGSnw4smhEGPpbfgovccWCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILsDQKGEm2ISq81fEEPmk8yMtqFm3cyCd11VIxBdX3Ebo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/klaxzy
+
+==================================================================
+

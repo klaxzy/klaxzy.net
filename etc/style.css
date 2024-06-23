@@ -8,8 +8,8 @@ code {
 	overflow-x: auto;
 	overflow-y: hidden;
 	display: inline-block;
-	background: #333;
-	border-radius: 2px;
+	background: #000000;
+	border-radius: 1px;
 	font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
 	font-size: 0.8em;
 }
@@ -154,6 +154,19 @@ hr {
 /*
 Page styles
 */
+
+/*log */
+pre code {
+	max-width: 100%;
+	tab-size: 8;
+	border: 1px solid #999;
+	display: block;
+	padding: 2px;
+	font: 13px fixed, monospace;
+	background: #333;
+}
+
+/*rest */
 
 div#div-header {
 	color: #c8c8c8;
